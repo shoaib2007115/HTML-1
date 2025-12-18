@@ -1,0 +1,166 @@
+
+:root {
+    --bg-light: #ffffff;
+    --text-dark: #2d2d2d;
+    --gray: #666;
+}
+
+body { font-family: sans-serif; margin: 0; color: var(--text-dark); line-height: 1.6; }
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 20px; }
+
+/* Navigation */
+.navbar { display: flex; justify-content: space-between; padding: 20px 0; }
+.nav-links { display: flex; list-style: none; gap: 30px; }
+
+/* Hero */
+.hero { display: flex; align-items: center; justify-content: space-between; gap: 40px; min-height: 500px; }
+.hero-text { flex: 1; }
+.hero-text h1 { font-size: 3.5rem; margin: 10px 0; }
+.hero-img { flex: 1; text-align: right; }
+.hero-img img { max-width: 100%; border-radius: 20px; }
+.btn-dark { background: #2d2d2d; color: #fff; border: none; padding: 15px 40px; cursor: pointer; }
+
+/* Logos */
+.logos { display: flex; justify-content: space-between; align-items: center; filter: grayscale(1); opacity: 1.9; }
+.logos img { height: 30px; }
+
+/* Skills Grid */
+.skills { display: flex; gap: 40px; text-align: center; }
+.skill-card { flex: 1; }
+.shape { width: 120px; height: 120px; margin: 0 auto 20px; }
+.arch { background: #eeb9ae; border-radius: 60px 60px 0 0; }
+.quarter { background: #f06a4d; border-radius: 0 120px 0 0; }
+.leaf { background: #4b907d; border-radius: 0 40px 40px 40px; }
+
+/* Work Grid */
+.section-title { text-align: center; margin: 60px 0 40px; font-size: 2rem; }
+.work-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; }
+.work-item img { width: 100%; border-radius: 8px; margin-bottom: 10px; }
+
+
+
+/* Testimonials Grid */
+/* Container sizing */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+    font-weight: 700;
+}
+
+/* Testimonials Grid (3 columns, 2 rows) */
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+}
+
+.testimonial-card {
+    background-color: #f3f3f3;
+    padding: 40px;
+    border-radius: 4px;
+}
+
+.testimonial-text {
+    font-size: 16px;
+    color: #2d2d2d;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.stars {
+    color: #2d2d2d;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.user-details strong {
+    display: block;
+    font-size: 16px;
+}
+
+.user-details span {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Work Together Section */
+.work-together-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-info h2 {
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    color: #666;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links img {
+    width: 28px;
+    height: 28px;
+}
+
+/* Form Styling */
+.contact-form {
+    flex: 1;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form input {
+    background-color: #f3f3f3;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.contact-form button {
+    background-color: #2d2d2d;
+    color: white;
+    padding: 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    width: 160px;
+    margin-top: 10px;
+}
